@@ -40,6 +40,19 @@ def pattern1(n):
         for _ in range(n-i):
             print(" ",end=' ')
         print()
+#pattern8
+    for i in range(n):
+        for j in range(i):
+            print(" ",end=' ')
+        for _ in range(2*(n-i-1)+1):
+            print("*",end=' ')
+        for _ in range(i):
+            print(" ",end=' ')
+        print()
+
+    
+
 
 n=5
+
 pattern1(n)
